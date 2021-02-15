@@ -9,6 +9,7 @@ body {
     background-color: 	#ffe6f2; 
 }
 header {
+    z-index: 9999;
     padding: 20px 35px;
     display: flex;
     align-items: center;
@@ -19,6 +20,24 @@ header {
     position: -webkit-sticky;
     top: 0;
 }
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    margin-left: 6px;
+    padding: 2px 4px;
+    border-bottom: 2px solid red;
+    font-size: 18px;
+}
+a {
+    color: red;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+/* a:visited {
+    color: salmon;
+} */
 .hero {
     background-image: url(../images/kamile-leo-HgoEnDWOGrA-unsplash.jpg);
     background-size: cover;
@@ -29,12 +48,21 @@ header {
     align-items: flex-end;
     justify-content: flex-end;
 }
-/* .about div {
+.hero h2 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    background-color: 	#ffe6f2;
+    padding: 8px 10px;
+    color: red;
+    font-size: 18px;
+    font-style:italic;
+}
+.about div {
     padding: 20px 10px 0 10px;
     border-right: 2px solid red;
     width: auto;
-
-} */
+}
 .section {
     width: 80%;
     display: flex;
@@ -56,64 +84,52 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.project-h2 {
+.section-title {
     height: 620px;
     width: 100%;
     padding-top: 250px;
     padding-left: 40px;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 427px;
-}
 .bio, .project-container {
     display: inline-block;
     width: 60%;
+    margin: 10px;
 }
-.hero h2 {
-    margin-right: 20px;
-    margin-bottom: 20px;
-    max-width: 300px;
-    background-color: 	#ffe6f2;
-    padding: 8px 10px;
-    color: red;
+.bio article {
+    margin: 30px auto;
     font-size: 18px;
+    line-height: 1.5;
+    font-weight: lighter;
 }
-li {
-    list-style: none;
-    margin-left: 6px;
-    padding: 2px 4px;
-    border-bottom: 2px solid red;
-    font-size: 18px;
-}
-a {
-    color: red;
-    text-decoration: none;
-    /* font-weight: bold; */
-}
-a:visited {
-    color: salmon;
-}
-ul {
+.container {
     display: flex;
+    flex-direction: row;
+    /* width: 427px; */
 }
 .project-container {
+    display: flex;
     position: relative;
-
 }
 .card-title {
     position: absolute;
     top: 10px;
     background-color: #ffe6f2;
     padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-title p {
+    font-weight: lighter;
 }
 #Contact {
     display: flex;
     justify-content: space-around;
 }
 #Contact h4, #Contact a {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 6px;
     padding: 2px 4px;
     border-bottom: 2px solid red;
@@ -123,8 +139,58 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 10px;
+    padding: 40px 35px;
+    flex-wrap: wrap;
+    width: 100%;
 }
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        position: relative;
+    }
+    .hero {
+        width: 100%;
+    }
+}
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    #Contact {
+        justify-content: center;
+    }
+    #Contact h2 {
+       align-self: flex-start;
+    }
+    #Contact h4, #Contact a {
+        padding: 30px 15px;
+    }
+    .container {
+        flex-flow: row wrap;
+    }
+}
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-
+    body {
+        text-align: center;
+        flex: 0 100%;
+    }
+    .hero {
+        background-position: 80%;
+    }
+    header {
+        width: 95%;
+        text-align: center;
+        padding-bottom: 0;
+        justify-content: center;
+    }
+    .section-title {
+        padding: 60px;
+    }
+    #Contact h2 {
+        flex: row;
+    }
+    #Contact h4, #Contact a {
+        padding: 15px;
+        flex-flow: row wrap;
+    }
 }
