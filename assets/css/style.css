@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body {
+    color: red;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: 	#ffe6f2; 
+}
+header {
+    padding: 20px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: 	#ffe6f2;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.hero {
+    background-image: url(../images/kamile-leo-HgoEnDWOGrA-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    min-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+/* .about div {
+    padding: 20px 10px 0 10px;
+    border-right: 2px solid red;
+    width: auto;
+
+} */
+.section {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.about-me {
+    margin: 20px;
+    border-right: 2px solid red;
+    height: 100%;
+    width: 200px;
+    padding-right: 20px;
+}
+.about-me h2 {
+    width: 150%;
+}
+.projects {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-h2 {
+    height: 620px;
+    width: 100%;
+    padding-top: 250px;
+    padding-left: 40px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 427px;
+}
+.bio, .project-container {
+    display: inline-block;
+    width: 60%;
+}
+.hero h2 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    background-color: 	#ffe6f2;
+    padding: 8px 10px;
+    color: red;
+    font-size: 18px;
+}
+li {
+    list-style: none;
+    margin-left: 6px;
+    padding: 2px 4px;
+    border-bottom: 2px solid red;
+    font-size: 18px;
+}
+a {
+    color: red;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+a:visited {
+    color: salmon;
+}
+ul {
+    display: flex;
+}
+.project-container {
+    position: relative;
+
+}
+.card-title {
+    position: absolute;
+    top: 10px;
+    background-color: #ffe6f2;
+    padding: 10px 10px;
+}
+#Contact {
+    display: flex;
+    justify-content: space-around;
+}
+#Contact h4, #Contact a {
+    margin-left: 6px;
+    padding: 2px 4px;
+    border-bottom: 2px solid red;
+    font-size: 18px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+@media screen and (max-width: 575px) {
+
+}
