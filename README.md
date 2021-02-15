@@ -13,7 +13,7 @@ This portfolio project was a chance to practice HTML and CSS skills while highli
 * Flexbox
 
 # Credits
-Design by Jennifer Nguyen with gracious help of TAs Wesley Tran and John Baxter.
+Design by Jennifer Nguyen with the gracious help of TAs Wesley Tran and John Baxter.
 
 # Website
 https://njthanhtrang.github.io/2.-Advanced-CSS-Challenge-Professional-Portfolio/
