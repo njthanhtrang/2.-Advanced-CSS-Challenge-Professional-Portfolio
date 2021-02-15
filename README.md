@@ -6,7 +6,7 @@ This portfolio project is an opportunity to practice HTML and CSS skills while h
 HTML is used to markup the structure of the site and CSS to style content. Flexbox and media queries are used for mobile-responsiveness, which may be consolidated and updated to new technologies and more specific screen sizes in the future.
 
 # Usage
-1. Open the Horiseon URL in your browser.
+1. Open the portfolio page URL in your browser.
 2. Navigate the website by scrolling up and down and using the top navigation bar to shortcut to specific sections.
 
 # Built With
