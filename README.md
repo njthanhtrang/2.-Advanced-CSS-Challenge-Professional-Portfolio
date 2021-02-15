@@ -22,3 +22,6 @@ https://njthanhtrang.github.io/2.-Advanced-CSS-Challenge-Professional-Portfolio/
 Copyright 2019 Horiseon Social Solution Services, Inc.
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
+<img width="1792" alt="Screen Shot 2021-02-14 at 11 46 48 PM" src="https://user-images.githubusercontent.com/77700824/107918701-009eab80-6f1f-11eb-9552-03d2aa1af431.png">
+<img width="1790" alt="Screen Shot 2021-02-14 at 11 47 04 PM" src="https://user-images.githubusercontent.com/77700824/107918716-072d2300-6f1f-11eb-95ce-6eac98edf9bd.png">
+
